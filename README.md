@@ -6,26 +6,23 @@ Aplicación web interna utilizada por los equipos de call center para la gestió
 
 El objetivo de Call Center Arroba es centralizar y ordenar el proceso de ventas, permitiendo el control de operaciones comerciales, la asignación de comisiones y la visualización de información según distintos niveles de rol.
 
-#### Detalles técnicos
+### Detalles técnicos
 | Característica       | Descripción                              |
 |----------------------|------------------------------------------|
 | Tipo de aplicación   | Aplicación web                           |
-| Frontend             | (Por definir / según stack actual)       |
-| Backend              | (Por definir / según stack actual)       |
+| Frontend             | (Por definir)                            |
+| Backend              | (Por definir)                            |
 | Lenguaje             | (Por definir)                            |
 | Base de datos        | (Por definir)                            |
-| Autenticación        | Sistema de usuarios con roles            |
-| Control de accesos   | Basado en roles y permisos               |
-| Entorno              | Uso interno (Call Center)                |
 
 ### Estructura del proyecto
-1
+(por definir)
 ### Funcionalidades principales
 
-###### **Panel Principal**: 
+##### **Panel Principal**: 
 Entrega una visión global del estado de la operación del call center y proporciona indicadores generales del sistema, junto con visualización de métricas como ventas por producto, ventas asociadas a comisiones y ventas pendientes de pago.
 
-###### **Módulo de operaciones**: 
+##### **Módulo de operaciones**: 
 Permite a los ejecutivos ingresar ventas de planes de telefonía, además de proporcionar visualización y análisis de ventas, con opciones de búsqueda, filtros por producto y rangos de fecha.
 
 Incluye las siguientes funciones:
@@ -36,13 +33,13 @@ Incluye las siguientes funciones:
 * Cruce de archivos, funcionalidad destinada a comparar archivos entregados por la empresa operadora con los registros internos del sistema.
 * Gestión de archivos TMZ, correspondientes a listados enviados por la operadora que contienen planes sin transacción asociada.
 
-###### **Reportes**: 
+##### **Reportes**: 
 El módulo de reportes permite la visualización de información relacionada con ventas y comisiones.
 
-* Visualización de reportes de ventas según distintos criterios (fechas, ejecutivos, equipos o estados).
+* Visualización de reportes de ventas según distintos criterios.
 * Consulta de comisiones asociadas a las ventas registradas en el sistema.
 
-###### **Módulo de Sistema**:
+##### **Módulo de Sistema**:
 Agrupa los mantenedores y configuraciones base necesarias para el correcto funcionamiento de la aplicación. Está orientado principalmente a roles administrativos y de mayor jerarquía.
 
 Este módulo interactúa directamente con entidades de la base de datos, permitiendo administrar parámetros clave del negocio y cuenta con las siguientes funciones:
