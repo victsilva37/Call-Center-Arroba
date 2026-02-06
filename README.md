@@ -10,10 +10,10 @@ El objetivo de Call Center Arroba es centralizar y ordenar el proceso de ventas,
 | Característica       | Descripción                              |
 |----------------------|------------------------------------------|
 | Tipo de aplicación   | Aplicación web                           |
-| Frontend             | (Por definir)                            |
-| Backend              | (Por definir)                            |
-| Lenguaje             | (Por definir)                            |
-| Base de datos        | (Por definir)                            |
+| Frontend             | Next JS                                  |
+| Backend              | STRAPI                                   |
+| Lenguaje             | Typescript/Javascript                    |
+| Base de datos        | Postgres                                 |
 
 ### Estructura del proyecto
 (por definir)
@@ -22,7 +22,7 @@ El objetivo de Call Center Arroba es centralizar y ordenar el proceso de ventas,
 ##### **Panel Principal**: 
 Entrega una visión global del estado de la operación del call center y proporciona indicadores generales del sistema, junto con visualización de métricas como ventas por producto, ventas asociadas a comisiones y ventas pendientes de pago.
 
-##### **Módulo de operaciones**: 
+##### **Operaciones**: 
 Permite a los ejecutivos ingresar ventas de planes de telefonía, además de proporcionar visualización y análisis de ventas, con opciones de búsqueda, filtros por producto y rangos de fecha.
 
 Incluye las siguientes funciones:
@@ -39,7 +39,7 @@ El módulo de reportes permite la visualización de información relacionada con
 * Visualización de reportes de ventas según distintos criterios.
 * Consulta de comisiones asociadas a las ventas registradas en el sistema.
 
-##### **Módulo de Sistema**:
+##### **Sistema**:
 Agrupa los mantenedores y configuraciones base necesarias para el correcto funcionamiento de la aplicación. Está orientado principalmente a roles administrativos y de mayor jerarquía.
 
 Este módulo interactúa directamente con entidades de la base de datos, permitiendo administrar parámetros clave del negocio y cuenta con las siguientes funciones:
